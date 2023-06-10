@@ -1,4 +1,4 @@
-package br.ce.wcaquino.tasks.apitest;
+package br.ce.rodrigoganchieta.tasks.apitest;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.BeforeClass;
@@ -11,7 +11,7 @@ public class APITest {
 	
 	@BeforeClass
 	public static void setup() {
-		RestAssured.baseURI = "http://localhost:8001/tasks-backend";
+		RestAssured.baseURI = "http://192.168.15.15:8001/jenkins-backend-wca";
 	}
 
 	@Test
